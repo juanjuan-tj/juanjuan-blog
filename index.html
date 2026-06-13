@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>卷卷的博客</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="starfield" aria-hidden="true"></div>
+    <div class="aurora" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="卷卷的博客首页">
+        <span class="brand-orb">卷</span>
+      </a>
+      <nav class="main-nav" aria-label="主导航">
+        <a href="#home" class="nav-link active">首页</a>
+        <a href="#articles" class="nav-link">文章</a>
+        <a href="#study" class="nav-link">学习</a>
+        <a href="#notes" class="nav-link">笔记</a>
+      </nav>
+      <a class="explore-link" href="#articles">Explore</a>
+    </header>
+
+    <main>
+      <section class="view home-view active" id="home" aria-labelledby="home-title">
+        <div class="orbit-stage" aria-label="个人导航卡片">
+          <a class="orbit-card card-home" href="#home">
+            <span>HOME</span>
+            <strong>星空首页</strong>
+          </a>
+          <a class="orbit-card card-articles" href="#articles">
+            <span>ARTICLE</span>
+            <strong>阅读与收藏</strong>
+          </a>
+          <a class="orbit-card card-study" href="#study">
+            <span>STUDY</span>
+            <strong>备考资料库</strong>
+          </a>
+          <a class="orbit-card card-notes" href="#notes">
+            <span>NOTION</span>
+            <strong>灵感笔记</strong>
+          </a>
+          <a class="orbit-card card-news" href="#articles">
+            <span>DAILY</span>
+            <strong>新闻速览</strong>
+          </a>
+          <a class="orbit-card card-ted" href="#articles">
+            <span>TED</span>
+            <strong>演讲清单</strong>
+          </a>
+        </div>
+
+        <div class="hero-copy">
+          <p class="eyebrow">Personal blog and navigation</p>
+          <h1 id="home-title">卷卷的<br />博客</h1>
+          <p class="hero-subtitle">阅读、备考、Notion 笔记，都收进一片安静的星空。</p>
+          <div class="hero-actions">
+            <a href="#articles" class="primary-button">进入文章</a>
+            <a href="#study" class="ghost-button">开始学习</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="view panel-view" id="articles" aria-labelledby="articles-title">
+        <div class="panel-copy">
+          <p class="eyebrow">Articles</p>
+          <h2 id="articles-title">READ<br />THINK<br /><span>COLLECT</span></h2>
+          <p>把每天值得读的内容放在这里，像整理书桌一样整理输入。</p>
+        </div>
+        <div class="carousel-shell" aria-label="文章栏目">
+          <div class="rail">
+            <a class="feature-card feature-weekly" href="#">
+              <span class="card-kicker">阅读周刊</span>
+              <strong>每周精选</strong>
+              <p>文章、观点、书摘与好句。</p>
+            </a>
+            <a class="feature-card feature-saved" href="#">
+              <span class="card-kicker">收藏</span>
+              <strong>灵感收纳箱</strong>
+              <p>稍后读、反复看、长期有用。</p>
+            </a>
+            <a class="feature-card feature-ted" href="#">
+              <span class="card-kicker">TED</span>
+              <strong>演讲片单</strong>
+              <p>英语、表达、洞察与故事感。</p>
+            </a>
+            <a class="feature-card feature-news" href="#">
+              <span class="card-kicker">每日新闻</span>
+              <strong>今日速览</strong>
+              <p>重要信息快速过一遍。</p>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="view panel-view" id="study" aria-labelledby="study-title">
+        <div class="panel-copy">
+          <p class="eyebrow">Study</p>
+          <h2 id="study-title">KEEP<br />TRAIN<br /><span>READY</span></h2>
+          <p>公务员备考入口集中在这里，少一点翻找，多一点进入状态。</p>
+        </div>
+        <div class="carousel-shell" aria-label="学习栏目">
+          <div class="rail">
+            <a class="feature-card feature-xingce" href="#">
+              <span class="card-kicker">公务员刷题</span>
+              <strong>行测</strong>
+              <p>言语、判断、数量、资料分析。</p>
+            </a>
+            <a class="feature-card feature-shenlun" href="#">
+              <span class="card-kicker">公务员刷题</span>
+              <strong>申论</strong>
+              <p>材料阅读、归纳概括、文章写作。</p>
+            </a>
+            <a class="feature-card feature-zhice" href="#">
+              <span class="card-kicker">事业单位</span>
+              <strong>职测</strong>
+              <p>模块练习、错题复盘、速度训练。</p>
+            </a>
+            <a class="feature-card feature-gongji" href="#">
+              <span class="card-kicker">公共基础</span>
+              <strong>公基</strong>
+              <p>法律、政治、经济、常识。</p>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="view panel-view" id="notes" aria-labelledby="notes-title">
+        <div class="panel-copy">
+          <p class="eyebrow">Notes</p>
+          <h2 id="notes-title">NOTION<br />MIND<br /><span>MAP</span></h2>
+          <p>Notion 笔记先用占位链接，之后可以替换成你的数据库、页面或公开分享链接。</p>
+        </div>
+        <div class="carousel-shell" aria-label="笔记栏目">
+          <div class="rail">
+            <a class="feature-card feature-note-a" href="#">
+              <span class="card-kicker">Notion</span>
+              <strong>知识库</strong>
+              <p>长期沉淀的主题索引。</p>
+            </a>
+            <a class="feature-card feature-note-b" href="#">
+              <span class="card-kicker">Notion</span>
+              <strong>读书笔记</strong>
+              <p>书摘、观点与自己的想法。</p>
+            </a>
+            <a class="feature-card feature-note-c" href="#">
+              <span class="card-kicker">Notion</span>
+              <strong>复盘记录</strong>
+              <p>学习计划、阶段总结、错题反思。</p>
+            </a>
+            <a class="feature-card feature-note-d" href="#">
+              <span class="card-kicker">Notion</span>
+              <strong>灵感碎片</strong>
+              <p>突然冒出来的小火花。</p>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
